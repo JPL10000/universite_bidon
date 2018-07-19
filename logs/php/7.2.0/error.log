@@ -1,0 +1,53 @@
+[16-Jul-2018 20:04:55 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:47 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:47 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:50 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:51 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:52 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:53 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:54 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:54 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:54 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:54 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:56 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:56 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[16-Jul-2018 20:05:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in phar:///usr/local/bin/wp/php/WP_CLI/SynopsisValidator.php on line 146
+[16-Jul-2018 20:05:56 UTC] PHP Parse error:  syntax error, unexpected end of file, expecting function (T_FUNCTION) or const (T_CONST) in phar:///usr/local/bin/wp/php/WP_CLI/SynopsisValidator.php on line 146
+[17-Jul-2018 15:09:36 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:36 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:36 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:36 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:36 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:38 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:09:38 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 15:11:02 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[17-Jul-2018 16:50:59 UTC] PHP Parse error:  syntax error, unexpected '$nom' (T_VARIABLE), expecting '(' in /app/public/wp-content/themes/universitebidon/index.php on line 12
+[17-Jul-2018 17:02:22 UTC] PHP Parse error:  syntax error, unexpected '}', expecting ',' or ';' in /app/public/wp-content/themes/universitebidon/index.php on line 11
+[17-Jul-2018 17:06:24 UTC] PHP Parse error:  syntax error, unexpected end of file in /app/public/wp-content/themes/universitebidon/index.php on line 13
+[17-Jul-2018 17:10:14 UTC] PHP Fatal error:  Maximum execution time of 900 seconds exceeded in /app/public/wp-content/themes/universitebidon/index.php on line 7
+[17-Jul-2018 17:10:14 UTC] PHP Stack trace:
+[17-Jul-2018 17:10:14 UTC] PHP   1. {main}() /app/public/index.php:0
+[17-Jul-2018 17:10:14 UTC] PHP   2. require() /app/public/index.php:17
+[17-Jul-2018 17:10:14 UTC] PHP   3. require_once() /app/public/wp-blog-header.php:19
+[17-Jul-2018 17:10:14 UTC] PHP   4. include() /app/public/wp-includes/template-loader.php:74
+[18-Jul-2018 18:13:18 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 18:13:18 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:03 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[18-Jul-2018 19:39:33 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:34 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
