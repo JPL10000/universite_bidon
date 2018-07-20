@@ -51,3 +51,11 @@
 [19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
 [19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
 [19-Jul-2018 15:15:40 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[19-Jul-2018 15:59:32 UTC] PHP Parse error:  syntax error, unexpected 'wp_enqueue_style' (T_STRING) in /app/public/wp-content/themes/universitebidon/functions.php on line 5
+[19-Jul-2018 18:32:08 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function getheader() in /app/public/wp-content/themes/universitebidon/page.php:4
+Stack trace:
+#0 /app/public/wp-includes/template-loader.php(74): include()
+#1 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#2 /app/public/index.php(17): require('/app/public/wp-...')
+#3 {main}
+  thrown in /app/public/wp-content/themes/universitebidon/page.php on line 4
