@@ -11,25 +11,45 @@
 
             <div class="site-footer__col-two-three-group">
             <div class="site-footer__col-two">
-                <h3 class="headline headline--small">Explore</h3>
+                <h3 class="headline headline--small">Découvrir</h3>
                 <nav class="nav-list">
+                
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footerLocation1'
+                    ));
+                ?>
+
+                <!--
                 <ul>
                     <li><a href="<?php echo site_url('/a-propos-de-nous'); ?>">A propos de nous</a></li>
                     <li><a href="#">Programs</a></li>
                     <li><a href="#">Events</a></li>
                     <li><a href="#">Campuses</a></li>
                 </ul>
+                -->
                 </nav>
             </div>
 
             <div class="site-footer__col-three">
-                <h3 class="headline headline--small">Learn</h3>
+                <h3 class="headline headline--small">En savoir plus</h3>
                 <nav class="nav-list">
+
+                <?php
+                    wp_nav_menu(array(
+                        'theme_location' => 'footerLocation2'
+                    ));
+                ?>
+
+
+                <!--
                 <ul>
                     <li><a href="<?php echo site_url('/politique-de-confidentialite'); ?>">Politique de confidentialité</a></li>
                     <li><a href="#">Privacy</a></li>
                     <li><a href="#">Careers</a></li>
                 </ul>
+                -->
+
                 </nav>
             </div>
             </div>

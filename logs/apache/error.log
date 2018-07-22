@@ -22,3 +22,9 @@
 [Thu Jul 19 18:30:22.130173 2018] [proxy_fcgi:error] [pid 473:tid 140163447457536] (22)Invalid argument: [client 172.17.0.1:42464] AH01075: Error dispatching request to : (passing brigade to output filters), referer: http://universitebidon.local/wp-admin/post-new.php?post_type=page
 [Thu Jul 19 18:30:34.419309 2018] [proxy_fcgi:error] [pid 472:tid 140163564955392] [client 172.17.0.1:42644] AH01068: Got bogus version 109, referer: http://universitebidon.local/wp-admin/post.php?post=12&action=edit&message=6
 [Thu Jul 19 18:30:34.419453 2018] [proxy_fcgi:error] [pid 472:tid 140163564955392] (22)Invalid argument: [client 172.17.0.1:42644] AH01075: Error dispatching request to : (passing brigade to output filters), referer: http://universitebidon.local/wp-admin/post.php?post=12&action=edit&message=6
+[Sat Jul 21 15:15:53.504721 2018] [mpm_event:notice] [pid 480:tid 140618938394496] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sat Jul 21 15:15:53.505314 2018] [core:notice] [pid 480:tid 140618938394496] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Jul 21 15:15:54.183893 2018] [proxy:error] [pid 483:tid 140618646882048] (111)Connection refused: AH02454: FCGI: attempt to connect to Unix domain socket /var/run/php-fpm.sock (*) failed
+[Sat Jul 21 15:15:54.184066 2018] [proxy_fcgi:error] [pid 483:tid 140618646882048] [client 172.17.0.1:49176] AH01079: failed to make connection to backend: httpd-UDS
+[Sun Jul 22 17:56:23.173828 2018] [mpm_event:notice] [pid 481:tid 140250063497088] AH00489: Apache/2.4.10 (Debian) configured -- resuming normal operations
+[Sun Jul 22 17:56:23.174233 2018] [core:notice] [pid 481:tid 140250063497088] AH00094: Command line: '/usr/sbin/apache2'
