@@ -60,7 +60,7 @@
   }
 
   &--beige:hover {
-    background-color: $mainYellow;
+    background-color: #000;
   }
 
   &--gray {
