@@ -47,23 +47,66 @@ class Search {
 
     getResults() {
 
-        $.when(
-            $.getJSON(monThemeData.root_url + '/wp-json/wp/v2/posts?search=' + this.searchField.val()),
-            $.getJSON(monThemeData.root_url + '/wp-json/wp/v2/pages?search=' + this.searchField.val())
-            ).then((posts, pages) => {
-            var combinedResults = posts[0].concat(pages[0]);
+        $.getJSON(monThemeData.root_url + '/wp-json/monTheme/v1/search?recherche=' + this.searchField.val(), (results) => {
             this.resultsDiv.html(`
-              <h2 class="search-overlay__section-title">Informations générales</h2>
-              ${combinedResults.length ? '<ul class="link-list min-list">' : '<p>Il n\'y a rien sur le site qui corresponde à cette requête.</p>'}
-                ${combinedResults.map(item => `<li><a href="${item.link}">${item.title.rendered}</a> ${item.type == 'post' ? `par ${item.nomAuteur}` : ''}</li>`).join('')}
-              ${combinedResults.length ? '</ul>' : ''}
+                <div class="row">
+                    <div class="one-third">
+                        <h2 class="search-overlay__section-title">Informations générales</h2>
+                        ${results.informationsGenerales.length ? '<ul class="link-list min-list">' : '<p>Il n\'y a rien sur le site qui corresponde à cette requête.</p>'}
+                        ${results.informationsGenerales.map(item => `<li><a href="${item.permalink}">${item.title}</a> ${item.postType == 'post' ? `par ${item.auteur}` : ''}</li>`).join('')}
+                        ${results.informationsGenerales.length ? '</ul>' : ''}
+                    </div>
+                    <div class="one-third">
+                        <h2 class="search-overlay__section-title">Programmes</h2>
+                        
+                        ${results.programmes.length ? '<ul class="link-list min-list">' : `<p>Il n\'y a pas de programme sur le site qui corresponde à cette requête. <a href="${monThemeData.root_url}/programmes">Voir tous les programmes</a></p>`}
+                        ${results.programmes.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+                        ${results.programmes.length ? '</ul>' : ''}
+
+                        <h2 class="search-overlay__section-title">Coaches</h2>
+                        
+                        ${results.coaches.length ? '<ul class="coach-cards">' : `<p>Il n\'y a pas de coach qui corresponde à cette requête. <a href="${monThemeData.root_url}/coaches">Voir tous les coaches</a></p>`}
+                        ${results.coaches.map(item => `
+                            <li class="coach-card__list-item">
+                                <a class="coach-card" href="${item.permalink}">
+                                <img class="coach-card__image" src="${item.image}">
+                                <<span class="coach-card__name">${item.title}</span>
+                                </a>
+                            </li>
+                        `).join('')}
+                        ${results.coaches.length ? '</ul>' : ''}
+                    </div>
+                    <div class="one-third">
+                        <h2 class="search-overlay__section-title">Incubateurs</h2>
+                        
+                        ${results.incubateurs.length ? '<ul class="link-list min-list">' : `<p>Il n\'y a pas d'incubateur qui corresponde à cette requête. <a href="${monThemeData.root_url}/incubateurs">Voir tous les incubateurs</a></p>`}
+                        ${results.incubateurs.map(item => `<li><a href="${item.permalink}">${item.title}</a></li>`).join('')}
+                        ${results.incubateurs.length ? '</ul>' : ''}
+                        
+                        <h2 class="search-overlay__section-title">Evènements</h2>
+
+                        ${results.evenements.length ? '' : `<p>Il n\'y a pas d'évènements prévus prochainement qui corresponde à cette requête. <a href="${monThemeData.root_url}/evenements">Voir tous les évènements</a></p>`}
+                        ${results.evenements.map(item => `
+                            <div class="event-summary">
+                            <a class="event-summary__date t-center" href="${item.permalink}">
+                            <span class="event-summary__month">${item.mois}
+                            </span>
+                            <span class="event-summary__day">${item.jour}</span>  
+                            </a>
+                            <div class="event-summary__content">
+                            <h5 class="event-summary__title headline headline--tiny"><a href="${item.permalink}">${item.title}</a></h5>
+                            <p>${item.excerpt}<a href="${item.permalink}" class="nu gray">En savoir plus</a></p>
+                            </div>
+                            </div>
+                        `).join('')}
+                    
+                    </div>
+                </div>
             `);
             this.isSpinnerVisible = false;
-          }, () => {
-            this.resultsDiv.html('<p>Erreur inattendue, merci de réesssayer.</p>');
-          });
-    }
-      
+        });
+
+    }  
 
     keyPressDispatcher(e) {
         if(e.keyCode == 83 && !this.isOverlayOpen && !$("input, textarea").is(':focus')) {

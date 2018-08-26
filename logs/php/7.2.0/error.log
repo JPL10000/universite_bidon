@@ -507,3 +507,439 @@ Stack trace:
 [22-Aug-2018 20:13:44 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
 [22-Aug-2018 20:13:52 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
 [22-Aug-2018 20:13:52 UTC] PHP Deprecated:  Directive 'track_errors' is deprecated in Unknown on line 0
+[25-Aug-2018 12:52:37 UTC] PHP Parse error:  syntax error, unexpected ''supports'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/mu-plugins/monTheme_post_types.php on line 70
+[25-Aug-2018 13:15:01 UTC] PHP Parse error:  syntax error, unexpected 'monTheme_custom_rest' (T_STRING), expecting '(' in /app/public/wp-content/themes/universitebidon/functions.php on line 5
+[25-Aug-2018 13:30:56 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 17
+[25-Aug-2018 13:50:32 UTC] PHP Parse error:  syntax error, unexpected '$coachesResults' (T_VARIABLE) in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 22
+[26-Aug-2018 07:29:26 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 18
+[26-Aug-2018 07:35:57 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 27
+[26-Aug-2018 07:43:05 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 28
+[26-Aug-2018 07:43:05 UTC] PHP Stack trace:
+[26-Aug-2018 07:43:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:43:05 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:43:05 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:43:05 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:43:05 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:43:05 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:43:05 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:43:05 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:43:05 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:43:05 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:43:05 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:43:05 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:43:05 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:43:05 UTC] PHP Stack trace:
+[26-Aug-2018 07:43:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:43:05 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:43:05 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:43:05 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:43:05 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:43:05 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:43:05 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:43:05 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:43:05 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:43:05 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:43:05 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:43:05 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:43:05 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:43:05 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:28) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:43:05 UTC] PHP Stack trace:
+[26-Aug-2018 07:43:05 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:43:05 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:43:05 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:43:05 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:43:05 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:43:05 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:43:05 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:43:05 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:43:05 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:43:05 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:43:05 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:43:05 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:43:05 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:44:03 UTC] PHP Warning:  Use of undefined constant x - assumed 'x' (this will throw an Error in a future version of PHP) in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 28
+[26-Aug-2018 07:44:03 UTC] PHP Stack trace:
+[26-Aug-2018 07:44:03 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:44:03 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:44:03 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:44:03 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:44:03 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:44:03 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:44:03 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:44:03 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:44:03 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:44:03 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:44:03 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:44:03 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:44:03 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:28) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:44:03 UTC] PHP Stack trace:
+[26-Aug-2018 07:44:03 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:44:03 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:44:03 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:44:03 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:44:03 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:44:03 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:44:03 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:44:03 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:44:03 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:44:03 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:44:03 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:44:03 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:44:03 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:44:29 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:44:29 UTC] PHP Stack trace:
+[26-Aug-2018 07:44:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:44:29 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:44:29 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:44:29 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:44:29 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:44:29 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:44:29 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:44:29 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:44:29 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:44:29 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:44:29 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:44:29 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:44:29 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:44:29 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:44:29 UTC] PHP Stack trace:
+[26-Aug-2018 07:44:29 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:44:29 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:44:29 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:44:29 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:44:29 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:44:29 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:44:29 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:44:29 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:44:29 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:44:29 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:44:29 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:44:29 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:44:29 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:45:09 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:45:09 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:09 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:09 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:09 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:09 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:09 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:09 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:09 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:09 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:09 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:09 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:45:09 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:45:09 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:45:09 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:45:09 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:09 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:09 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:09 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:09 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:09 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:09 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:09 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:09 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:09 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:09 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:09 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:45:09 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:45:09 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:45:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:45:37 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:37 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:37 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:37 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:37 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:37 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:37 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:37 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:37 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:37 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:37 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:45:37 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:45:37 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:45:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:45:37 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:37 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:37 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:37 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:37 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:37 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:37 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:37 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:37 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:37 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:37 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:45:37 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:45:37 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:45:37 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:45:37 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:37 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:37 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:37 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:37 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:37 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:37 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:37 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:37 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:37 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:37 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:45:37 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:45:37 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:45:37 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:45:37 UTC] PHP Stack trace:
+[26-Aug-2018 07:45:37 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:45:37 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:45:37 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:45:37 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:45:37 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:45:37 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:45:37 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:45:37 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:45:37 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:45:37 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:45:37 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:45:37 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:45:37 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:47:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:47:34 UTC] PHP Stack trace:
+[26-Aug-2018 07:47:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:47:34 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:47:34 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:47:34 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:47:34 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:47:34 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:47:34 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:47:34 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:47:34 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:47:34 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:47:34 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:47:34 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:47:34 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:47:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:47:34 UTC] PHP Stack trace:
+[26-Aug-2018 07:47:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:47:34 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:47:34 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:47:34 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:47:34 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:47:34 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:47:34 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:47:34 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:47:34 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:47:34 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:47:34 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:47:34 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:47:34 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:47:34 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:47:34 UTC] PHP Stack trace:
+[26-Aug-2018 07:47:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:47:34 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:47:34 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:47:34 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:47:34 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:47:34 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:47:34 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:47:34 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:47:34 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:47:34 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:47:34 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:47:34 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:47:34 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:47:34 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:47:34 UTC] PHP Stack trace:
+[26-Aug-2018 07:47:34 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:47:34 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:47:34 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:47:34 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:47:34 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:47:34 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:47:34 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:47:34 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:47:34 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:47:34 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:47:34 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:47:34 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:47:34 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:49:59 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:49:59 UTC] PHP Stack trace:
+[26-Aug-2018 07:49:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:49:59 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:49:59 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:49:59 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:49:59 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:49:59 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:49:59 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:49:59 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:49:59 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:49:59 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:49:59 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:49:59 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:49:59 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:49:59 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:49:59 UTC] PHP Stack trace:
+[26-Aug-2018 07:49:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:49:59 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:49:59 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:49:59 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:49:59 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:49:59 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:49:59 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:49:59 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:49:59 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:49:59 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:49:59 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:49:59 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:49:59 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:49:59 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:49:59 UTC] PHP Stack trace:
+[26-Aug-2018 07:49:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:49:59 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:49:59 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:49:59 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:49:59 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:49:59 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:49:59 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:49:59 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:49:59 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:49:59 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:49:59 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:49:59 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:49:59 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:49:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:49:59 UTC] PHP Stack trace:
+[26-Aug-2018 07:49:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:49:59 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:49:59 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:49:59 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:49:59 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:49:59 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:49:59 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:49:59 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:49:59 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:49:59 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:49:59 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:49:59 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:49:59 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:51:01 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:51:01 UTC] PHP Stack trace:
+[26-Aug-2018 07:51:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:51:01 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:51:01 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:51:01 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:51:01 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:51:01 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:51:01 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:51:01 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:51:01 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:51:01 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:51:01 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:51:01 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:51:01 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:51:01 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:51:01 UTC] PHP Stack trace:
+[26-Aug-2018 07:51:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:51:01 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:51:01 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:51:01 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:51:01 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:51:01 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:51:01 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:51:01 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:51:01 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:51:01 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:51:01 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:51:01 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:51:01 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:51:01 UTC] PHP Warning:  array_push() expects parameter 1 to be array, null given in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 48
+[26-Aug-2018 07:51:01 UTC] PHP Stack trace:
+[26-Aug-2018 07:51:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:51:01 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:51:01 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:51:01 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:51:01 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:51:01 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:51:01 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:51:01 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:51:01 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:51:01 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:51:01 UTC] PHP  11. WP_REST_Server->dispatch() /app/public/wp-includes/rest-api/class-wp-rest-server.php:321
+[26-Aug-2018 07:51:01 UTC] PHP  12. monThemeSearchResults() /app/public/wp-includes/rest-api/class-wp-rest-server.php:936
+[26-Aug-2018 07:51:01 UTC] PHP  13. array_push() /app/public/wp-content/themes/universitebidon/inc/search-route.php:48
+[26-Aug-2018 07:51:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:48) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 07:51:01 UTC] PHP Stack trace:
+[26-Aug-2018 07:51:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 07:51:01 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 07:51:01 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 07:51:01 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 07:51:01 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 07:51:01 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 07:51:01 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 07:51:01 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 07:51:01 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 07:51:01 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 07:51:01 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 07:51:01 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 07:51:01 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 07:54:21 UTC] PHP Parse error:  syntax error, unexpected '*' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 58
+[26-Aug-2018 07:54:22 UTC] PHP Parse error:  syntax error, unexpected '*' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 58
+[26-Aug-2018 07:55:00 UTC] PHP Parse error:  syntax error, unexpected '*' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 44
+[26-Aug-2018 07:55:14 UTC] PHP Parse error:  syntax error, unexpected '*' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 44
+[26-Aug-2018 12:09:13 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 43
+[26-Aug-2018 12:09:15 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 43
+[26-Aug-2018 16:45:50 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 52
+[26-Aug-2018 16:45:53 UTC] PHP Parse error:  syntax error, unexpected ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 52
+[26-Aug-2018 17:45:35 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 93
+[26-Aug-2018 17:45:37 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 93
+[26-Aug-2018 17:45:37 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN), expecting variable (T_VARIABLE) or '{' or '$' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 93
+[26-Aug-2018 17:49:19 UTC] PHP Parse error:  syntax error, unexpected ',' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 94
+[26-Aug-2018 17:59:01 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:100) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 17:59:01 UTC] PHP Stack trace:
+[26-Aug-2018 17:59:01 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 17:59:01 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 17:59:01 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 17:59:01 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 17:59:01 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 17:59:01 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 17:59:01 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 17:59:01 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 17:59:01 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 17:59:01 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 17:59:01 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 17:59:01 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 17:59:01 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 17:59:59 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /app/public/wp-content/themes/universitebidon/inc/search-route.php:100) in /app/public/wp-includes/rest-api/class-wp-rest-server.php on line 1248
+[26-Aug-2018 17:59:59 UTC] PHP Stack trace:
+[26-Aug-2018 17:59:59 UTC] PHP   1. {main}() /app/public/index.php:0
+[26-Aug-2018 17:59:59 UTC] PHP   2. require() /app/public/index.php:17
+[26-Aug-2018 17:59:59 UTC] PHP   3. wp() /app/public/wp-blog-header.php:16
+[26-Aug-2018 17:59:59 UTC] PHP   4. WP->main() /app/public/wp-includes/functions.php:960
+[26-Aug-2018 17:59:59 UTC] PHP   5. WP->parse_request() /app/public/wp-includes/class-wp.php:713
+[26-Aug-2018 17:59:59 UTC] PHP   6. do_action_ref_array() /app/public/wp-includes/class-wp.php:373
+[26-Aug-2018 17:59:59 UTC] PHP   7. WP_Hook->do_action() /app/public/wp-includes/plugin.php:515
+[26-Aug-2018 17:59:59 UTC] PHP   8. WP_Hook->apply_filters() /app/public/wp-includes/class-wp-hook.php:310
+[26-Aug-2018 17:59:59 UTC] PHP   9. rest_api_loaded() /app/public/wp-includes/class-wp-hook.php:286
+[26-Aug-2018 18:00:00 UTC] PHP  10. WP_REST_Server->serve_request() /app/public/wp-includes/rest-api.php:266
+[26-Aug-2018 18:00:00 UTC] PHP  11. WP_REST_Server->send_headers() /app/public/wp-includes/rest-api/class-wp-rest-server.php:353
+[26-Aug-2018 18:00:00 UTC] PHP  12. WP_REST_Server->send_header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1260
+[26-Aug-2018 18:00:00 UTC] PHP  13. header() /app/public/wp-includes/rest-api/class-wp-rest-server.php:1248
+[26-Aug-2018 18:06:48 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 118
+[26-Aug-2018 18:06:48 UTC] PHP Parse error:  syntax error, unexpected 'return' (T_RETURN) in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 118
+[26-Aug-2018 18:12:36 UTC] PHP Parse error:  syntax error, unexpected ';', expecting ',' or ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 116
+[26-Aug-2018 18:20:27 UTC] PHP Parse error:  syntax error, unexpected ''title'' (T_CONSTANT_ENCAPSED_STRING), expecting ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 58
+[26-Aug-2018 18:36:05 UTC] PHP Parse error:  syntax error, unexpected 'array' (T_ARRAY), expecting ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 96
+[26-Aug-2018 18:36:07 UTC] PHP Parse error:  syntax error, unexpected '=', expecting ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 95
+[26-Aug-2018 18:37:57 UTC] PHP Parse error:  syntax error, unexpected 'foreach' (T_FOREACH), expecting ')' in /app/public/wp-content/themes/universitebidon/inc/search-route.php on line 92
+[26-Aug-2018 18:52:06 UTC] PHP Fatal error:  Uncaught ArgumentCountError: Too few arguments to function the_field(), 0 passed in /app/public/wp-content/themes/universitebidon/single-programme.php on line 15 and at least 1 expected in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php:329
+Stack trace:
+#0 /app/public/wp-content/themes/universitebidon/single-programme.php(15): the_field()
+#1 /app/public/wp-includes/template-loader.php(74): include('/app/public/wp-...')
+#2 /app/public/wp-blog-header.php(19): require_once('/app/public/wp-...')
+#3 /app/public/index.php(17): require('/app/public/wp-...')
+#4 {main}
+  thrown in /app/public/wp-content/plugins/advanced-custom-fields/core/api.php on line 329

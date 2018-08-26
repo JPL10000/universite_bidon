@@ -46,8 +46,9 @@ function monTheme_post_types() {
 
     // enregistrement des programmes
     register_post_type('programme', array(
+        'show_in_rest' => true,
         'supports' => array(
-            'title', 'editor'
+            'title'
         ),
         'rewrite' => array(
             'slug' => 'programmes'
@@ -66,9 +67,14 @@ function monTheme_post_types() {
 
     // enregistrement des coaches
     register_post_type('coach', array(
+        'show_in_rest' => true,
         'supports' => array(
             'title', 'editor', 'thumbnail'
         ),
+        'rewrite' => array(
+            'slug' => 'coaches'
+        ),
+        'has_archive' => true,
         'public' => true,
         'labels' => array(
             'name' => 'Coaches',
